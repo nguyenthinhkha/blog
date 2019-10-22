@@ -13,27 +13,6 @@ Add this line to your site's `_config.yml`:
 ```yaml
 remote_theme: thelehhman/plainwhite-jekyll
 ```
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "plainwhite"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: plainwhite
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install plainwhite
 
 ## Usage
 
