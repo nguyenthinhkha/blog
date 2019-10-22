@@ -6,8 +6,10 @@
 <body>
 	<main class="container">
 		<section class="about">
-			<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
-			<h2>{{ site.plainwhite.name }}</h2>
+			<a href="https://nguyenthinhkha.github.io/blog">
+				<img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}">
+				<h2>{{ site.plainwhite.name }}</h2>
+			</a>
 			<p class="tagline">{{ site.plainwhite.tagline }}</p>
 			<ul class="social">
                 {%- if site.plainwhite.social_links.github -%}
@@ -17,7 +19,7 @@
 				<a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}"><li><i class="icon-linkedin-squared"></i></li></a>
                 {%- endif -%}
                 {%- if site.plainwhite.social_links.facebook -%}
-                <a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="icon-twitter-squared"></i></li></a>
+                <a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}"><li><i class="icon-facebook-squared"></i></li></a>
                 {%- endif -%}
 			</ul>
 			<p>&copy; 2019</p>
