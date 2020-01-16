@@ -4,6 +4,7 @@ email: nguyenthinhkha@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Passion. Concentration. Teamwork
 show_excerpts: true # set to true to show excerpts on the homepage
+google_ad_client: ca-pub-2837955479461975
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
